@@ -1,0 +1,126 @@
+@media (min-width: 992px) {
+
+    :root {
+        --title-font-size: 2.25rem;
+        --subtitle-font-size: 1.125rem;
+    }
+
+}
+
+@media (min-width: 1200px) {
+
+    .container {
+        max-width: 1120px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    main {
+        margin-top: var(--header-height);
+    }
+
+    .section {
+        padding: 10rem 0;
+    }
+
+    .section header {
+        max-width: 32rem;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    nav .menu {
+        opacity: 1;
+        visibility: visible;
+        top: 0;
+    }
+
+    nav .menu ul {
+        display: flex;
+        gap: 2rem;
+    }
+
+    nav .menu ul li a.title {
+        font: 400 1rem var(--subtitle-font-size);
+        -webkit-font-smoothing: antialiased;
+    }
+
+    nav .menu ul li a.title.active {
+        font-weight: bold;
+        -webkit-font-smoothing: auto;
+
+    }
+
+    nav.container i {
+        display: none;
+    }
+
+    #home .container {
+        grid-auto-flow: column;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+
+    #home .image {
+        order: 1;
+    }
+
+    #home .text {
+        order: 0;
+        max-width: 24rem;
+        text-align: left;
+    }
+
+    .button {
+        height: 3.125rem;
+    }
+
+    #about .container {
+        margin: 0 auto;
+        grid-auto-flow: column;
+    }
+
+    #services .cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    #services .card .title {
+        font-size: var(--card-font-size);
+    }
+
+    .swiper {
+        width: 100%;
+        box-shadow: none;
+    }
+
+    .swiper-slide blockquote {
+        box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
+    }
+
+    #contact .container {
+        grid-auto-flow: column;
+        align-items: center;
+    }
+
+    #contact .text {
+        max-width: 25rem;
+    }
+
+    footer.section {
+        padding: 3.75rem 0;
+    }
+
+    footer .container {
+        grid-auto-flow: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    footer .logo {
+        font-size: 2.25rem;
+    }
+
+    /* Parei em 55 min da aula 05 */
+
+
+}
