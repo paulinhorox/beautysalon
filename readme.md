@@ -23,12 +23,12 @@
 
 <h3 align="center">Visualização Desktop</h3>
 <p align="center">
-<img src="Assets/desktop%20view.png">
+<img src="assets/img/desktop-view.png">
 </p>
 
 <h3 align="center">Visualização Mobile</h3>
 <p align="center">
-<img src="Assets/mobile%20view.png">
+<img src="assets/img/mobile-view.png">
 </p>
 
 <br>

@@ -65,6 +65,7 @@ const swiper = new Swiper('.swiper',{
 
 
 const scrollReveal = ScrollReveal({
+    once: true,
     origin: 'top',
     distance: '30px',
     duration: 700,
@@ -113,5 +114,4 @@ window.addEventListener('scroll', () => {
     backToTop()
     activeMenuAtCurrentSection()
 })
-// Parei em 1h 23 min da aula 05
 
